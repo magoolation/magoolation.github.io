@@ -1,0 +1,31 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Alexandre Santos Costa
+tagline:             Desenvolvedor, deficiente visual e apaixonado por tecnologoa
+url:                 http://magoolation.github.io
+paginate:            5
+baseurl:             ""
+encoding: "utf-8"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Alexandre Santos Costa
+  url:               https://twitter.com/magoolation
+  email:             magoolation@me.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/magoolation/magoolation.github.io
